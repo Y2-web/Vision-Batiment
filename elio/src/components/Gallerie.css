@@ -1,0 +1,55 @@
+.gallerie {
+    background-color: rgba(179,161,187,0.9);
+}
+
+.gallerie1 {
+    flex: 1;
+    height: 400px;
+    /* background-color: #d9cdbd; */
+    padding: 20px;
+    background-image: url('C:\Users\emman\Desktop\elio_website\elio\src\assets\gallerie.jpg');  /* Remplacez par le chemin de votre image  */
+    background-size: contain; /* Optionnel : redimensionne l'image pour remplir tout le conteneur  */
+    background-repeat: no-repeat; /* Optionnel : empêche la répétition de l'image si elle est plus petite que le conteneur */
+}
+
+.gallerie2 {
+    flex: 1;
+    /* background-color: #0967c4; */
+    position: relative;
+}
+
+.gallerie2 > h2 {
+    position: absolute;
+    left: 220px;
+    color: #fff;
+}
+
+.gallerie {
+    display: flex;
+    width: 100%;
+}
+
+.button_R {
+    position: absolute;
+    top: 200px;
+    left: 250px;
+    cursor: pointer;
+    color: #fff;
+    outline:none;
+    border: none;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-right: 2rem; 
+    padding-top: 1rem;
+    background-color: #7a7a7a;
+    padding-bottom: 1rem;
+}
+
+.button_R:hover {
+    color: #7a7a7a;
+    background-color: #fff;
+    transition: all 0.2s;
+}
+

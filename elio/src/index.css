@@ -1,0 +1,19 @@
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+html {
+  font-size: 14px;
+  background-color: rgba(179,161,187,0.9);
+}
+
+p , h1,  h2, h3, li {
+  font-family: Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
+  }
+  
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

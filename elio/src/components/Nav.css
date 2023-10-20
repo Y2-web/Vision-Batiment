@@ -1,0 +1,104 @@
+.nav {
+    position: fixed;
+    top: 0;
+    padding: 40px;
+    width: 100%;
+
+    height: 120px;
+    z-index: 1;
+    background-color: rgba(34,46,42,0.2);
+
+    /* Animations */
+    transition-timing-function: linear;
+    transition: height 1s;
+}
+
+/* When scroll > 100px */
+.nav_transition {
+    /* background: #549505; */
+    height: 60px;
+}
+
+
+.nav_contents {
+    top: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_logo {
+    /* height: 200px; */
+    position: fixed;
+    left: 0;
+    top: 30px;
+    width: 100px;
+    height: 80px;
+    object-fit: contain;
+    padding-left: 20px;
+    cursor: pointer;
+    transition: transform 0.6s linear, width 0.5s linear, height 1s linear;
+}
+
+.logo_transition {
+    position: fixed;
+    left: 0;
+    /* top: 12px; */
+    width: 80px; 
+    height: 60px;
+    transform: translateY(-18px);
+}
+
+
+.liste {
+    position: fixed;
+    display: flex;
+    right: 40px;
+    top: 40px;
+    transition: transform 0.3s linear;
+}
+
+.liste_transition {
+    position: fixed;
+    right: 40px;
+    transform: translateY(-25px);
+}
+
+.liste > li {
+    list-style-type: none;
+    margin-right: 30px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.no-link-style {
+    /* Aucun style par défaut */
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+  }
+  
+.liste > li:hover{
+
+color: #7a7a7a;
+cursor: pointer;
+}
+
+.nav_button {
+    cursor: pointer;
+    color: #fff;
+    outline:none;
+    border: none;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    background-color: rgba(51, 51, 51, 0.5);
+}
+
+.nav_button:hover {
+    color: #7a7a7a;
+    background-color: #ffffff;
+}
